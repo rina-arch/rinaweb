@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neng Rina</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(to bottom,#fff8f8,#fff1f4);
+    padding:30px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.profile{
+    background:white;
+    text-align:center;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+}
+
+.profile img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #ffd6e7;
+}
+
+.profile h1{
+    margin-top:15px;
+    color:#ff7da8;
+}
+
+.profile p{
+    color:#777;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:25px;
+    margin-bottom:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    color:#ff7da8;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#ffe5ef;
+    color:#ff5f9e;
+    padding:10px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:#fff8fb;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+}
+
+.project img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.project h3{
+    padding:12px 15px 5px;
+    color:#ff6fa3;
+}
+
+.project p{
+    padding:0 15px 15px;
+    color:#666;
+}
+
+footer{
+    text-align:center;
+    margin-top:20px;
+    color:#888;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="profile">
+        <img src="pict3.jpeg" alt="Foto Profil">
+        <h1>Neng Rina</h1>
+        <p>Siswi Kreatif • Desainer Pemula • Aktif Berorganisasi</p>
+    </div>
+
+    <div class="card">
+        <h2>💗 Tentang Saya</h2>
+        <p>
+            Halo! Aku adalah siswi yang aktif, kreatif, dan suka mencoba hal-hal baru.
+            Aku memiliki minat dalam desain poster, pembuatan konten, dan kegiatan organisasi.
+            Aku senang bekerja sama dalam tim, bertanggung jawab, serta selalu berusaha memberikan hasil terbaik dalam setiap proyek yang dikerjakan.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>✨ Kemampuan</h2>
+
+        <div class="skills">
+            <div class="skill">Canva</div>
+            <div class="skill">Desain Poster</div>
+            <div class="skill">Microsoft Word</div>
+            <div class="skill">Corel</div>
+            <div class="skill">CapCut</div>
+            <div class="skill">Kerja Sama Tim</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🎀 Karya & Proyek</h2>
+
+        <div class="projects-grid">
+
+            <div class="project">
+                <img src="pict1.png" alt="Poster">
+                
+            </div>
+
+            <div class="project">
+                <img src="pict2.jpg" alt="Banner">
+                
+                </div>
+
+            <div class="project">
+                <img src="pict4.png" alt="Instagram">
+        
+            </div>
+
+        </div>
+    </div>
+
+<div class="card">
+    <h2 style="color:#ff69b4;">📄 Resume Singkat</h2>
+    <p style="color:#ff4fa3;">
+        <strong>Kelas:</strong> XI
+    </p>
+    
+    <p style="color:#ff4fa3;">
+        <strong>Jurusan:</strong> Desain Komunikasi Visual (DKV)
+    </p>
+    
+    <p style="color:#ff4fa3;">
+        <strong>Minat:</strong> Desain Grafis, Pembuatan Konten, dan Organisasi Sekolah
+    </p>
+</div>
+
+<div class="card">
+    <h2>💌 Hubungi Saya</h2>
+
+    <div class="skills">
+        <div class="skill">📧 rina@example.com</div>
+        <div class="skill">📱 @rn_4uryn</div>
+        <div class="skill">📍 Sukabumi</div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
